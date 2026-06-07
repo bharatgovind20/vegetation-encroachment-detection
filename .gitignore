@@ -1,0 +1,49 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment / secret files
+.env
+*.env
+config.json
+secrets.json
+
+# Large datasets - do not upload to GitHub
+data/
+dataset/
+datasets/
+raw_data/
+
+# Trained models / weights - usually large
+models/
+checkpoints/
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.joblib
+
+# Logs and outputs
+logs/
+*.log
+outputs/
+results/
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
