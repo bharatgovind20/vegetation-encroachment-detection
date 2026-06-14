@@ -42,8 +42,8 @@ st.markdown(
 # Paths and Constants
 # ----------------------------
 
-MODEL_PATH = Path(
-    r"C:\BITS AI ML\Project final\Vegetation_Encroachment_Project\models\attention_unet_vepl_dice_focal_best.pth")
+MODEL_PATH = MODEL_PATH = Path(__file__).resolve(
+).parent / "models" / "attention_unet_vepl_dice_focal_best.pth"
 
 IMAGE_SIZE = 256
 GSD_FACTOR = 0.03  # assumed meters per pixel
